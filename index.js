@@ -884,7 +884,7 @@ cnf.sendReadReceipt(from, m.sender, [m.key.id])}
 	// AntiLinkgc
 if (AntiLink) {
 linkgce = await cnf.groupInviteCode(from)
-if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
+if (budy.includes(`http${linkgce}`)) {
 } else if (isUrl(m.text)) {
 if (isAdmins) return
 if (m.key.fromMe) return 
@@ -992,7 +992,7 @@ cnf.sendMessage(from, {text:`\`\`\`「 ANTI-TW 」\`\`\`\n\n*[❗] @${kice.split
 }
 //antilink all
 if (AntiLinkAll)
-   if (budy.includes("https://")){
+   if (budy.includes(".com")){
 if (!isBotAdmins) return
 if (isAdmins) return 
 if (m.key.fromMe) return
@@ -1256,7 +1256,7 @@ const latensie = speed() - timestampe
                 const menulist = `┌─❖
 │「 Hola! 😁 」
 └┬❖ 「 ${pushname} 」
-┌┤✑ Soy ConfuBot v5
+┌┤✑ Soy Lucky V1
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
@@ -1298,7 +1298,7 @@ _Ping:_ ${anu.velocidad}
 _Owner:_ ${anu.contacto.owner}
 _Link:_ https://britanic-apis.herokuapp.com
 
-*| API REST OFICIAL DE CONFUMODS |*`)
+*| API REST OFICIAL DE LUCKY |*`)
 			break			
 			
 case 'besar':
@@ -2239,7 +2239,8 @@ if (isBanChat) return replay(mess.banChat)
           replay(`Exif se ha cambiado con éxito a\n\n${themeemoji} Packname : ${global.packname}\n${themeemoji} Author : ${global.author}`)
             }
             break
-	case 'kick': {
+	case 'kick':
+	  case 'sacar' {
 		if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
@@ -2664,7 +2665,7 @@ fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
 replay('*[⚙️] Autostickerpv desactivado')
 }
 break
-case 'antilinkgc': {
+case 'antilink': {
    if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
 if (!m.isGroup) return replay(mess.group)
@@ -2695,7 +2696,7 @@ replay('*[⚙️] Éxito al desactivar el antilinkgc en este grupo*')
   }
   }
   break
-  case 'antilinkyoutubevideo': case 'antilinkyoutubevid': case 'antilinkytvid': {
+  case 'antilinkyt': case 'antilinkyoutubevid': case 'antilinkytvid': {
    if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
 if (!m.isGroup) return replay(mess.group)
@@ -7755,15 +7756,15 @@ case 'menu':
 	   if (isBan) return replay(mess.ban)
 	if (isBanChat) return replay(mess.banChat)
 
-await cnf.send5ButImg(from, `*╭═✦͜͡ৡৢ┅╡༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑╞┅ৡৢ͜͡✦═╮*
+await cnf.send5ButImg(from, `*╭═✦͜͡ৡৢ┅╡࿑𝙻𝚄𝙲𝙺𝚈-𝙱𝙾𝚃╞┅ৡৢ͜͡✦═╮*
 *║◄🥀┢┅ீ͜ৡৢ͜͡✦━◇━ீ͜ৡৢ͜͡✦┅┧🥀►*
 *║┊:*      ┈ ┈ ┈ ┈ ┈ ┈ ┈ ┈  
-*║┊:𝑪𝒓𝒆𝒂𝒅𝒐𝒓 : 𝑪𝒐𝒏𝒇𝒖*
-*║┊:YT : ConfuMods*
-*║┊:𝑵𝒖𝒎𝒆𝒓𝒐 : wa.me/56999448163*
+*║┊:CREADOR: 𝙻𝚞𝚌𝚔𝚢-𝙲𝚟*
+*║┊:YT : LuckyBots*
+*║┊:NUMERO : wa.me/34643694252*
 *║┊:*      ┈ ┈ ┈ ┈ ┈  ┈ ┈ ┈ 
 *║◄🌹┢┅ீ͜ৡৢ͜͡✦━◇━ீ͜ৡৢ͜͡✦┅┧🌹►*
-*╰═✦͜͡ৡৢ┅╡༊𝕮࿆𝖔ྂ𝖓𝖋𝖚ྂ𝕭𝖔ྂ𝖙࿆࿑╞┅ৡৢ͜͡✦═╯*
+*╰═✦͜͡ৡৢ┅╡࿑𝙻𝚄𝙲𝙺𝚈-𝙱𝙾𝚃╞┅ৡৢ͜͡✦═╯*
 
 *╭═✦͜͡ৡৢ┅╡ *𝐓𝐔 𝐈𝐍𝐅𝐎* ╞┅ৡৢ͜͡✦═╮*
 *╟ ╳*
@@ -8311,7 +8312,7 @@ await cnf.send5ButImg(from, `*╭═✦͜͡ৡৢ┅╡༊𝕮࿆𝖔ྂ𝖓𝖋
 *╟ ❒ ${prefix}report [bug]*
 *├ ╳*
 *┠ೋ━ೋ✧ೋ━ೋ┓*
-*║  🥀𝑪𝑶𝑵𝑭𝑼𝑴𝑶𝑫𝑺🥀*
+*║  🥀𝙻𝚄𝙲𝙺𝚈𝙱𝙾𝚃𝚂🥀*
 *┗ೋ━ೋ✧ೋ━ೋ┛*` + '' + ' ', `${botname}`,log0, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickreplayButton": {"displayText": "Donate 🍜","id": 'donate'}},{"quickreplayButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 
@@ -8677,7 +8678,7 @@ case 'ping': case 'p': case 'botstatus': case 'statusbot': {
 case 'sugerir': case 'solicitar': case 'request': {
    if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
-if (!args.join(" ")) return replay(`Ejemplo : ${prefix + command} hola confu, agregue el comando de stickers`)
+if (!args.join(" ")) return replay(`Ejemplo : ${prefix + command} hola lucky, agregue el comando de stickers`)
 teks = `*| SOLICITUD |*`
 teks1 = `\n\nNumero : @${m.sender.split("@")[0]}\nSolicitud : ${args.join(" ")}`
 teks2 = `\n\nEnviado correctamente al propietario`

@@ -2239,8 +2239,7 @@ if (isBanChat) return replay(mess.banChat)
           replay(`Exif se ha cambiado con éxito a\n\n${themeemoji} Packname : ${global.packname}\n${themeemoji} Author : ${global.author}`)
             }
             break
-	case 'kick':
-	  case 'sacar' {
+	case 'kick': {
 		if (isBan) return replay(mess.ban)	 			
 if (isBanChat) return replay(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)

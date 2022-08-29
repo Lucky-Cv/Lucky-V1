@@ -32,23 +32,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['56999448163'] 
-global.ownername = "ConfuMods👀"
-global.ytname = "YT: ConfuMods" 
-global.socialm = "GitHub: Confusion245" 
-global.location = "America, Santiago, Chile" 
+global.vcardowner = ['34643694252'] 
+global.ownername = "LuckyBot👀"
+global.ytname = "YT:  hola" 
+global.socialm = "GitHub: Lucky-Cv" 
+global.location = "Europa, Barcelona, España" 
 
 //bot bomdy 
-global.owner = ['56999448163']
-global.ownertag = '56999448163' 
-global.botname = '𝐂𝙾𝙽𝙵𝚄•𝐁𝙾𝚃-𝐌𝙳 𝐕5' 
-global.linkz = "https://youtube.com/c/ConfuMods" 
-global.websitex = "https://youtube.com/c/ConfuMods" 
-global.botscript = 'https://github.com/Confusion245/ConfuBot-MD5' 
+global.owner = ['34643694252']
+global.ownertag = '34643694252' 
+global.botname = '𝙻𝚄𝙲𝙺𝚈•𝙱𝙾𝚃' 
+global.linkz = "https://youtube.com/" 
+global.websitex = "https://youtube.com/" 
+global.botscript = 'https://github.com/Lucky-Cv/Lucky-V1' 
 global.reactmoji = "✔️" 
 global.themeemoji = "🏳️‍🌈" 
-global.packname = " ‎═══ •『 🤡 』• ═══\n✿ • ConfuBot v5\n\n𝐀𝐍𝐓𝐈𝐒𝐎𝐂𝐈𝐀𝐋 𝐃𝐄𝐕𝐒? 𝐎𝐂\n⤷cutt.ly\/eZfytPj" 
-global.author = " ‎🛹•Creado por:\n⤷ ✧ConfuMods✨\n\n⛩️• YouTube: \n⤷ cutt.ly\/7ZfyAst"
+global.packname = " ‎═══ •『 🤡 』• ═══\n✿ • 𝙻𝚞𝚔𝚌𝚢𝙱𝚘𝚝 v5\n\n𝐀𝐍𝐓𝐈𝐒𝐎𝐂𝐈𝐀𝐋 𝐃𝐄𝐕𝐒? 𝐎𝐂\n⤷cutt.ly\/eZfytPj" 
+global.author = " ‎🛹•Creado por:\n⤷ ✧𝙻𝚞𝚌𝚔𝚢✨\n\n⛩️• YouTube: \n⤷https://youtube.com"
 
 
 global.thum = fs.readFileSync("./Media/theme/bot.jpg") 
@@ -59,7 +59,7 @@ global.thumb = fs.readFileSync("./Media/theme/bot.jpg")
 global.lolkeys = ['2e0da1f78d1721134b21816d', '902c3bc9d8c08b0dcf8f5373', '808693688ecc695293359089', '85faf717d0545d14074659ad']
 global.lolkeysapi = lolkeys[Math.floor(lolkeys.length * Math.random())]
 
-global.premium = ['56999448163'] 
+global.premium = ['34643694252'] 
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []

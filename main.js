@@ -61,7 +61,7 @@ width: 80,
 whitespaceBreak: false
 }), 'cyan'))
 console.log(color(`╔═════════════════════════╗` ,'white'))
-console.log(color(`║ ` ,'white'), color(`✹ 𝙲𝚘𝚗𝚏𝚞𝙱𝚘𝚝-𝙼𝙳 ✹`, 'gold'))
+console.log(color(`║ ` ,'white'), color(`✹ 𝚕𝚞𝚌𝚔𝚢-𝚋𝚘𝚝 ✹`, 'gold'))
 console.log(color(`╠═════════════════════════╩═════════════════════════╗`, 'white'))
 console.log(color(`║ `, 'white'), color(`[•]`, 'gold'), color(`Hola        : Usuario                        ║`, 'white'))
 console.log(color(`║ `, 'white'), color(`[•]`, 'gold'), color(`Estado      : Online!                        ║`, 'white'))
@@ -71,7 +71,7 @@ console.log(color(`╚═══════════════════�
     const cnf = cnfConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['ConfuBot-MD5','Safari','1.0.0'],
+        browser: ['Lucky-Cv','Safari','1.0.0'],
         auth: state
     })
 
